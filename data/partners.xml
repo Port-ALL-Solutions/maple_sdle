@@ -97,7 +97,7 @@
             <field name='country_id' ref='base.ca'/>
             <field name='state_id' ref='base.state_ca_qc'/>            
             <field name="phone">+1 418 730 4465</field>
-            <field name="fpaqNum">12519</field>
+            <field name="fpaqCode">12519</field>
         </record>		
 
         <record id="partner_lbmtreat_hq" model="res.partner">

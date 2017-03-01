@@ -1,4 +1,4 @@
-id,active,parent_id:id,name,is_company,maple_producer,default_owner_id:id,lang:id,maple_buyer,type,siteNum,fpaqNum,maple_organic_certification,maple_purity_certification,maple_region:id,street,city,zip,country_id:id,state_id:id,phone,mobile,fax,email,website,comment
+id,active,parent_id:id,name,is_company,maple_producer,default_owner_id:id,lang:id,maple_buyer,type,intCode,fpaqCode,maple_organic_certification,maple_purity_certification,maple_region:id,street,city,zip,country_id:id,state_id:id,phone,mobile,fax,email,website,comment
 P0001,1,,SIROIS REGIS,1,1,base.main_partner,fr_CA,0,contact,1,14824,0,0,siropdelest.region_C2,1061 DE L'EGLISE,POHENEGAMOOK,G0L1J0,base.ca,base.state_ca_qc,+1 418 859-3103,,,,,Pas production pour 2016 4646 lbs produit en 2015
 P0001-C1,1,P0001,SIROIS REGIS,0,0,base.main_partner,fr_CA,0,contact,,,,,,1061 DE L'EGLISE,POHENEGAMOOK,G0L1J0,base.ca,base.state_ca_qc,+1 418 859-3103,,,,,
 P0001-E1,1,P0001,Érablière SIROIS REGIS,0,0,base.main_partner,fr_CA,0,delivery,,,0,0,siropdelest.region_C2,1061 DE L'EGLISE,POHENEGAMOOK,G0L1J0,base.ca,base.state_ca_qc,,,,,,
