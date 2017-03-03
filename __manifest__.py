@@ -22,7 +22,7 @@ This module provides mosly fields and views.
 # Chargement des groups, users et rules pour la sécurité
         'data/regions.xml',
         'data/partners.xml',
-        'data/res.partner.csv',
+#        'data/res.partner.csv',
         'data/company.xml',
         'data/warehouses.xml',
     ],
