@@ -54,6 +54,7 @@
             <field name="fax">+1 418 899 2077</field>
             <field name="email">info@siropdelest.com</field>
             <field name="website">www.siropdelest.com</field>
+            <field name="ref">SE</field>
             <field name="image" type="base64" file="maple/static/img/siropdelest.png"/>            
         </record>		
 
@@ -70,6 +71,7 @@
             <field name="fax">+1 450 649 3687</field>
             <field name="email">info@fpaq.ca</field>
             <field name="website">www.fpaq.ca</field>
+            <field name="ref">FPAQ</field>
             <field name="image" type="base64" file="maple/static/img/logo-fpaq.jpg"/>            
         </record>		
 
@@ -112,6 +114,7 @@
             <field name="phone">+1 888 775 1111</field>
             <field name="fax">+1 450 777 2867</field>
             <field name="email">info@fpaq.ca</field>
+            <field name="ref">LB</field>
             <field name="website">http://www.lbmapletreat.com</field>
             <field name="image" type="base64" file="maple/static/img/logo-lbmapletreat.png"/>            
         </record>		

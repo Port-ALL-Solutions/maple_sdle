@@ -2,13 +2,18 @@
 <odoo>
     <data>
     
-        <record id="se1-r1" model="stock.location">
-            <field name="name">R1</field>
-            <field name="maxItem">250</field>
-            <field name='location_id' ref='stock.stock_location_stock'/>
-        </record> 
-    
-    
+        <record id="stock.stock_location_company" model="stock.location">
+            <field name="active">1</field>
+        </record>
+        
+        <record id="stock.stock_location_output" model="stock.location">
+            <field name="active">1</field>
+        </record>
+        
+        <record id="stock.location_pack_zone" model="stock.location">
+            <field name="active">1</field>
+        </record>
+
     </data>
 </odoo>
     
