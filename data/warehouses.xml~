@@ -18,7 +18,7 @@
             <field name='partner_id' ref='base.main_partner'/>
             <field name='reception_steps'>two_steps</field>
             <field name='delivery_steps'>pick_ship</field>
-            <field name='manufacture_to_resupply'>False</field>
+            <field name='manufacture_to-resupply'>False</field>
             <field name='buy_to_resupply'>False</field>
             <field name='default_resupply_wh_id'>1</field>
         </record>
@@ -29,7 +29,7 @@
             <field name='partner_id' ref='base.main_partner'/>
             <field name='reception_steps'>two_steps</field>
             <field name='delivery_steps'>pick_ship</field>
-            <field name='manufacture_to_resupply'>False</field>
+            <field name='manufacture_to-resupply'>False</field>
             <field name='buy_to_resupply'>False</field>
             <field name='default_resupply_wh_id'>1</field>
         </record>
@@ -40,7 +40,7 @@
             <field name='partner_id' ref='base.main_partner'/>
             <field name='reception_steps'>two_steps</field>
             <field name='delivery_steps'>pick_ship</field>
-            <field name='manufacture_to_resupply'>False</field>
+            <field name='manufacture_to-resupply'>False</field>
             <field name='buy_to_resupply'>False</field>
             <field name='default_resupply_wh_id'>1</field>
         </record>
