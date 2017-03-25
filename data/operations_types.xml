@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="stock_picking_type_SE1_weighing" model="stock.picking.type">
+            <field name="name">SE1 move to weighing</field>
+            <field name="sequence_id" ref='maple.ir_sequence_weighing_SE1'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" ref='stock.stock_location_stock'/>
+            <field name="default_location_dest_id" ref='siropdelest.loc_weight'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='stock.warehouse0'/>
+        </record>
+
+        <record id="stock_picking_type_SE1_classification1" model="stock.picking.type">
+            <field name="name">SE1 move to classification 1</field>
+            <field name="sequence_id" ref='maple.ir_sequence_class1_SE1'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" ref='stock.stock_location_stock'/>
+            <field name="default_location_dest_id" ref='siropdelest.loc_class1'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='stock.warehouse0'/>
+        </record>
+
+        <record id="stock_picking_type_SE1_classification2" model="stock.picking.type">
+            <field name="name">SE1 move to classification 2</field>
+            <field name="sequence_id" ref='maple.ir_sequence_class2_SE1'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" ref='stock.stock_location_stock'/>
+            <field name="default_location_dest_id" ref='siropdelest.loc_class2'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='stock.warehouse0'/>
+        </record>
+
+    </data>
+</odoo>

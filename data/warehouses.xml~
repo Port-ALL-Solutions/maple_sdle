@@ -6,8 +6,8 @@
             <field name="name">Entrepôt 1</field>
             <field name="code">SE1</field>
             <field name='partner_id' ref='base.main_partner'/> <!-- champ libellé 'Adress': référence au id attribué par partners.xml à Sirop de l'Est qui lui réfère aux données injectées par partners.xml du module base dans odoo/addons -->
-            <field name='reception_steps'>three_steps</field>
-            <field name='delivery_steps'>pick_pack_ship</field>
+            <field name='reception_steps'>two_steps</field>
+            <field name='delivery_steps'>pick_ship</field>
             <field name='manufacture_to-resupply'>True</field>
             <field name='buy_to_resupply'>True</field>
         </record>
@@ -18,7 +18,7 @@
             <field name='partner_id' ref='base.main_partner'/>
             <field name='reception_steps'>two_steps</field>
             <field name='delivery_steps'>pick_ship</field>
-            <field name='manufacture_to-resupply'>False</field>
+            <field name='manufacture_to_resupply'>False</field>
             <field name='buy_to_resupply'>False</field>
             <field name='default_resupply_wh_id'>1</field>
         </record>
@@ -29,20 +29,30 @@
             <field name='partner_id' ref='base.main_partner'/>
             <field name='reception_steps'>two_steps</field>
             <field name='delivery_steps'>pick_ship</field>
-            <field name='manufacture_to-resupply'>False</field>
+            <field name='manufacture_to_resupply'>False</field>
+            <field name='buy_to_resupply'>False</field>
+            <field name='default_resupply_wh_id'>1</field>
+        </record>
+        
+        <record id="warehouse_SE4" model="stock.warehouse">
+            <field name="name">Entrepôt 3</field>
+            <field name="code">SE3</field>
+            <field name='partner_id' ref='base.main_partner'/>
+            <field name='reception_steps'>two_steps</field>
+            <field name='delivery_steps'>pick_ship</field>
+            <field name='manufacture_to_resupply'>False</field>
             <field name='buy_to_resupply'>False</field>
             <field name='default_resupply_wh_id'>1</field>
         </record>
 
-        <record id="warehouse_SE4" model="stock.warehouse">
-            <field name="name">Entrepôt 4</field>
-            <field name="code">SE4</field>
+        <record id="warehouse_SENB" model="stock.warehouse">
+            <field name="name">Entrepôt N.-B.</field>
+            <field name="code">SENB</field>
             <field name='partner_id' ref='base.main_partner'/>
             <field name='reception_steps'>two_steps</field>
             <field name='delivery_steps'>pick_ship</field>
-            <field name='manufacture_to-resupply'>False</field>
-            <field name='buy_to_resupply'>False</field>
-            <field name='default_resupply_wh_id'>1</field>
+            <field name='manufacture_to_resupply'>True</field>
+            <field name='buy_to_resupply'>True</field>
         </record>
 
 	</data>
