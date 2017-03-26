@@ -8,7 +8,7 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" ref='stock.stock_location_stock'/>
-            <field name="default_location_dest_id" ref='siropdelest.loc_weight'/>
+            <field name="default_location_dest_id" ref='siropdelest.stock_location_weighing'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
@@ -19,7 +19,7 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" ref='stock.stock_location_stock'/>
-            <field name="default_location_dest_id" ref='siropdelest.loc_class1'/>
+            <field name="default_location_dest_id" ref='siropdelest.stock_location_classification1'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
@@ -30,7 +30,7 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" ref='stock.stock_location_stock'/>
-            <field name="default_location_dest_id" ref='siropdelest.loc_class2'/>
+            <field name="default_location_dest_id" ref='siropdelest.stock_location_classification2'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
