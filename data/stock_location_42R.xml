@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="stock.stock_location_company" model="stock.location">
+            <field name="active">1</field>
+        </record>
+
+        <record id="stock.stock_location_output" model="stock.location">
+            <field name="active">1</field>
+        </record>
+
+        <record id="stock.location_pack_zone" model="stock.location">
+            <field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_weighing" model="stock.location">
+        	<field name="name">Pesée</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+ 
+        <record id="stock_location_classification1" model="stock.location">
+        	<field name="name">Classement 1</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_classification2" model="stock.location">
+        	<field name="name">Classement 2</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_weighingNB" model="stock.location">
+        	<field name="name">Pesée</field>
+        	<field name="location_id" ref="siropdelest.warehouse_SENB"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+ 
+        <record id="stock_location_classificationNB" model="stock.location">
+        	<field name="name">Classement NB</field>
+        	<field name="location_id" ref="siropdelest.warehouse_SENB"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R01" model="stock.location">
+        	<field name="name">R01</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R02" model="stock.location">
+        	<field name="name">R02</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R03" model="stock.location">
+        	<field name="name">R03</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R04" model="stock.location">
+        	<field name="name">R04</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>        
+
+        <record id="stock_location_R05" model="stock.location">
+        	<field name="name">R05</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R06" model="stock.location">
+        	<field name="name">R06</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R07" model="stock.location">
+        	<field name="name">R07</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R08" model="stock.location">
+        	<field name="name">R08</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R09" model="stock.location">
+        	<field name="name">R09</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R10" model="stock.location">
+        	<field name="name">R10</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R11" model="stock.location">
+        	<field name="name">R11</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R12" model="stock.location">
+        	<field name="name">R12</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>        
+
+        <record id="stock_location_R13" model="stock.location">
+        	<field name="name">R13</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R14" model="stock.location">
+        	<field name="name">R14</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R15" model="stock.location">
+        	<field name="name">R15</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R16" model="stock.location">
+        	<field name="name">R16</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R17" model="stock.location">
+        	<field name="name">R17</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R18" model="stock.location">
+        	<field name="name">R18</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R19" model="stock.location">
+        	<field name="name">R19</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R20" model="stock.location">
+        	<field name="name">R20</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>        
+
+        <record id="stock_location_R21" model="stock.location">
+        	<field name="name">R21</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R22" model="stock.location">
+        	<field name="name">R22</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R23" model="stock.location">
+        	<field name="name">R23</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R24" model="stock.location">
+        	<field name="name">R24</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R25" model="stock.location">
+        	<field name="name">R25</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R26" model="stock.location">
+        	<field name="name">R26</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R27" model="stock.location">
+        	<field name="name">R27</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R28" model="stock.location">
+        	<field name="name">R28</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>        
+
+        <record id="stock_location_R29" model="stock.location">
+        	<field name="name">R29</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R30" model="stock.location">
+        	<field name="name">R30</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R31" model="stock.location">
+        	<field name="name">R31</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R32" model="stock.location">
+        	<field name="name">R32</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R33" model="stock.location">
+        	<field name="name">R33</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R34" model="stock.location">
+        	<field name="name">R34</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R35" model="stock.location">
+        	<field name="name">R35</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R36" model="stock.location">
+        	<field name="name">R36</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R37" model="stock.location">
+        	<field name="name">R37</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R38" model="stock.location">
+        	<field name="name">R38</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>        
+
+        <record id="stock_location_R39" model="stock.location">
+        	<field name="name">R39</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R40" model="stock.location">
+        	<field name="name">R40</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+        
+        <record id="stock_location_R41" model="stock.location">
+        	<field name="name">R41</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+        <record id="stock_location_R42" model="stock.location">
+        	<field name="name">R42</field>
+        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="usage">internal</field>
+        	<field name="maxItem">250</field>
+        	<field name="active">1</field>
+        </record>
+
+    </data>
+</odoo>

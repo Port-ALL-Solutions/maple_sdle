@@ -25,10 +25,9 @@ This module provides mosly fields and views.
 #        'data/res.partner.csv',
         'data/company.xml',
         'data/warehouses.xml',
-#        'data/stock.location.csv',
         'data/stock_location.xml',
-        'data/operations_types.xml',
         'data/stock.location.csv',
+        'data/operations_types.xml'
     ],
     'qweb': [
 #        "static/src/xml/*.xml",
