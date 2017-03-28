@@ -16,7 +16,7 @@ Initial maple data import for Sirop de l'Est.
 This module provides mosly fields and views.
         """,
     'depends': [
-        'maple',
+        'maple','stock_picking_from_stock_quants'
     ],
     'data': [
 # Chargement des groups, users et rules pour la sécurité
