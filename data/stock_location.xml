@@ -40,7 +40,7 @@
 
         <record id="stock_location_weighingNB" model="stock.location">
         	<field name="name">Pesée</field>
-        	<field name="location_id" ref="siropdelest.warehouse_SENB"/>
+        	<field name="location_id" ref="warehouse_SENB"/>
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
         	<field name="active">1</field>

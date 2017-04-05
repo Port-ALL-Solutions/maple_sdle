@@ -1,0 +1,354 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* siropdelest
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-03 08:46-0400\n"
+"PO-Revision-Date: 2017-04-03 08:55-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Language: fr_CA\n"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_B1
+msgid "Auclair"
+msgstr "Auclair"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_B2
+msgid "Biencourt, Squatec"
+msgstr "Biencourt, Squatec"
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.stock_location_classification1
+msgid "Classement 1"
+msgstr "Classement 1"
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.stock_location_classification2
+msgid "Classement 2"
+msgstr "Classement 2"
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.stock_location_classificationNB
+msgid "Classement NB"
+msgstr "Classement NB"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_D3
+msgid "Gaspésie"
+msgstr "Gaspésie"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_B3
+msgid "Lejeune"
+msgstr "Lejeune"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_B4
+msgid "Lot-Renversé, St-Juste du Lac"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_F1
+msgid "Nouveau-Brunswick"
+msgstr "Nouveau-Brunswick"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_G
+msgid "Ontario"
+msgstr "Ontario"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_A1
+msgid "Packington, Dégelis, NDDL, St-Eusèbe, St-Jean, Rivière-Bleue, St-Marc, Cabano"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.stock_location_weighing
+#: model:stock.location,name:siropdelest.stock_location_weighingNB
+msgid "Pesée"
+msgstr "Pesée"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_C1
+msgid "Pohénégamook, St-Elzéar"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_E2
+msgid "Québec et plus loin"
+msgstr "Québec et plus loin"
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R01
+msgid "R01"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R02
+msgid "R02"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R03
+msgid "R03"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R04
+msgid "R04"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R05
+msgid "R05"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R06
+msgid "R06"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R07
+msgid "R07"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R08
+msgid "R08"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R09
+msgid "R09"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R10
+msgid "R10"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R11
+msgid "R11"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R12
+msgid "R12"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R13
+msgid "R13"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R14
+msgid "R14"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R15
+msgid "R15"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R16
+msgid "R16"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R17
+msgid "R17"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R18
+msgid "R18"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R19
+msgid "R19"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R20
+msgid "R20"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R21
+msgid "R21"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R22
+msgid "R22"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R23
+msgid "R23"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R24
+msgid "R24"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R25
+msgid "R25"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R26
+msgid "R26"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R27
+msgid "R27"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R28
+msgid "R28"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R29
+msgid "R29"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R30
+msgid "R30"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R31
+msgid "R31"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R32
+msgid "R32"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R33
+msgid "R33"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R34
+msgid "R34"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R35
+msgid "R35"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R36
+msgid "R36"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R37
+msgid "R37"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R38
+msgid "R38"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R39
+msgid "R39"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R40
+msgid "R40"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R41
+msgid "R41"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.location,name:siropdelest.R42
+msgid "R42"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_D1
+msgid "Rimouski et les environs"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_E1
+msgid "Rivière-du-Loup, Bellechasse,Beauce"
+msgstr ""
+
+#. module: siropdelest
+#: model:stock.picking.type,name:siropdelest.stock_picking_type_SE1_classification1
+msgid "SE1 move to classification 1"
+msgstr "Déplacement SE1 à classification 1"
+
+#. module: siropdelest
+#: model:stock.picking.type,name:siropdelest.stock_picking_type_SE1_classification2
+msgid "SE1 move to classification 2"
+msgstr "Déplacement SE1 à classification 2"
+
+#. module: siropdelest
+#: model:stock.picking.type,name:siropdelest.stock_picking_type_SE1_weighing
+msgid "SE1 move to weighing"
+msgstr "Déplacement SE1 à pesée"
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_C2
+msgid "ST-Athanase"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_A2
+msgid "St-Honoré, St-Hubert"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_F2
+msgid "St-Quentin"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_D2
+msgid "Vallée de la matapédia"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_H
+msgid "Winconsin, US"
+msgstr ""
+
+#. module: siropdelest
+#: model:maple.region,description:siropdelest.region_B5
+msgid "Zec Owen"
+msgstr ""
