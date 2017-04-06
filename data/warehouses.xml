@@ -34,11 +34,11 @@
             <field name='default_resupply_wh_id'>1</field>
         </record>
         
-        <record id="warehouse_SE4" model="stock.warehouse">
-            <field name="name">Entrepôt 4</field>
-            <field name="code">SE4</field>
+        <record id="warehouse_SEEXT" model="stock.warehouse">
+            <field name="name">Extérieur</field>
+            <field name="code">SEEXT</field>
             <field name='partner_id' ref='base.main_partner'/>
-            <field name='reception_steps'>two_steps</field>
+            <field name='reception_steps'>one_step</field>
             <field name='delivery_steps'>pick_ship</field>
             <field name='manufacture_to_resupply'>False</field>
             <field name='buy_to_resupply'>False</field>

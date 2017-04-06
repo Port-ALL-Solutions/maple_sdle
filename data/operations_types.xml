@@ -34,6 +34,28 @@
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
+        
+		<record id="stock_picking_type_SE1_outofclassif1" model="stock.picking.type">
+            <field name="name">SE1 move out of classification 1</field>
+            <field name="sequence_id" ref='maple.ir_sequence_class1_SE1_out'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" ref='siropdelest.stock_location_classification1'/>
+            <field name="default_location_dest_id" ref='stock.stock_location_stock'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='stock.warehouse0'/>
+        </record>
+        
+        <record id="stock_picking_type_SE1_outofclassif2" model="stock.picking.type">
+            <field name="name">SE1 move out of classification 2</field>
+            <field name="sequence_id" ref='maple.ir_sequence_class2_SE1_out'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" ref='siropdelest.stock_location_classification2'/>
+            <field name="default_location_dest_id" ref='stock.stock_location_stock'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='stock.warehouse0'/>
+        </record>
 
     </data>
 </odoo>
