@@ -64,7 +64,7 @@
 
         <record id="stock_location_weighingNB" model="stock.location">
         	<field name="name">Pesée</field>
-        	<field name="location_id" ref="siropdelest.warehouse_SENB"/>
+        	<field name="location_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
         	<field name="active">1</field>
@@ -72,7 +72,7 @@
  
         <record id="stock_location_classificationNB" model="stock.location">
         	<field name="name">Classement NB</field>
-        	<field name="location_id" ref="siropdelest.warehouse_SENB"/>
+        	<field name="location_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
         	<field name="active">1</field>
@@ -80,7 +80,9 @@
         
 		<record id="stock_location_quickuseNB" model="stock.location">
         	<field name="name">Usage rapide</field>
-        	<field name="location_id" ref="siropdelest.warehouse_SENB"/>
+        	<!-- field name="location_id" eval="40"/ -->
+        	<field name="location_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
+        	<!-- field name="location_id" ref="siropdelest.warehouse_SENB"/ -->
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
         	<field name="active">1</field>
@@ -88,7 +90,7 @@
         
 		<record id="stock_location_retentionNB" model="stock.location">
         	<field name="name">Retenus</field>
-        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="location_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
         	<field name="active">1</field>
@@ -96,7 +98,7 @@
         
 		<record id="stock_location_returnNB" model="stock.location">
         	<field name="name">Retours</field>
-        	<field name="location_id" ref="stock.stock_location_stock"/>
+        	<field name="location_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
         	<field name="active">1</field>
