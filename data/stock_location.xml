@@ -63,7 +63,7 @@
         </record>
 
         <record id="stock_location_weighingNB" model="stock.location">
-        	<field name="name">Pesée</field>
+        	<field name="name">Pesee</field>
         	<field name="location_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
         	<field name="usage">internal</field>
         	<field name="maxItem">250</field>
