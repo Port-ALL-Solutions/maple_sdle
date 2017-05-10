@@ -57,5 +57,38 @@
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
 
+        <record id="stock_picking_type_SENB_weighing" model="stock.picking.type">
+            <field name="name">SENB move to weighing</field>
+            <field name="sequence_id" ref='maple.ir_sequence_weighing_SENB'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
+            <field name="default_location_dest_id" ref='siropdelest.stock_location_weighingNB'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='siropdelest.warehouse_SENB'/>
+        </record>
+        
+        <record id="stock_picking_type_SENB_classification" model="stock.picking.type">
+            <field name="name">SENB move to classification</field>
+            <field name="sequence_id" ref='maple.ir_sequence_class_SENB'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
+            <field name="default_location_dest_id" ref='siropdelest.stock_location_classificationNB'/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='siropdelest.warehouse_SENB'/>
+        </record>
+        
+		<record id="stock_picking_type_SENB_outofclassif" model="stock.picking.type">
+            <field name="name">SENB move out of classification</field>
+            <field name="sequence_id" ref='maple.ir_sequence_class_SENB_out'/>
+            <field name="code">internal</field>
+            <field name="use_existing_lots">1</field>
+            <field name="default_location_src_id" ref='siropdelest.stock_location_classificationNB'/>
+            <field name="default_location_dest_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
+            <field name="active">1</field>
+            <field name="warehouse_id" ref='siropdelest.warehouse_SENB'/>
+        </record>
+
     </data>
 </odoo>
