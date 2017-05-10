@@ -8,7 +8,7 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" ref='stock.stock_location_stock'/>
-            <field name="default_location_dest_id" ref='siropdelest.stock_location_weighing'/>
+            <field name="default_location_dest_id" ref='stock_location_weighing'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
@@ -19,7 +19,7 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" ref='stock.stock_location_stock'/>
-            <field name="default_location_dest_id" ref='siropdelest.stock_location_classification1'/>
+            <field name="default_location_dest_id" ref='stock_location_classification1'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
@@ -30,7 +30,7 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" ref='stock.stock_location_stock'/>
-            <field name="default_location_dest_id" ref='siropdelest.stock_location_classification2'/>
+            <field name="default_location_dest_id" ref='stock_location_classification2'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
         </record>
@@ -40,7 +40,7 @@
             <field name="sequence_id" ref='maple.ir_sequence_class1_SE1_out'/>
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
-            <field name="default_location_src_id" ref='siropdelest.stock_location_classification1'/>
+            <field name="default_location_src_id" ref='stock_location_classification1'/>
             <field name="default_location_dest_id" ref='stock.stock_location_stock'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
@@ -51,7 +51,7 @@
             <field name="sequence_id" ref='maple.ir_sequence_class2_SE1_out'/>
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
-            <field name="default_location_src_id" ref='siropdelest.stock_location_classification2'/>
+            <field name="default_location_src_id" ref='stock_location_classification2'/>
             <field name="default_location_dest_id" ref='stock.stock_location_stock'/>
             <field name="active">1</field>
             <field name="warehouse_id" ref='stock.warehouse0'/>
@@ -63,31 +63,31 @@
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
-            <field name="default_location_dest_id" ref='siropdelest.stock_location_weighingNB'/>
+            <field name="default_location_dest_id" ref='stock_location_weighingNB'/>
             <field name="active">1</field>
-            <field name="warehouse_id" ref='siropdelest.warehouse_SENB'/>
+            <field name="warehouse_id" ref='warehouse_SENB'/>
         </record>
         
         <record id="stock_picking_type_SENB_classification" model="stock.picking.type">
             <field name="name">SENB move to classification</field>
-            <field name="sequence_id" ref='maple.ir_sequence_class_SENB'/>
+            <field name="sequence_id" ref='maple.ir_sequence_class_SENB_in'/>
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
             <field name="default_location_src_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
-            <field name="default_location_dest_id" ref='siropdelest.stock_location_classificationNB'/>
+            <field name="default_location_dest_id" ref='stock_location_classificationNB'/>
             <field name="active">1</field>
-            <field name="warehouse_id" ref='siropdelest.warehouse_SENB'/>
+            <field name="warehouse_id" ref='warehouse_SENB'/>
         </record>
         
 		<record id="stock_picking_type_SENB_outofclassif" model="stock.picking.type">
             <field name="name">SENB move out of classification</field>
-            <field name="sequence_id" ref='maple.ir_sequence_class_SENB_out'/>
+            <field name="sequence_id" ref='maple.ir_sequence_class SENB_out'/>
             <field name="code">internal</field>
             <field name="use_existing_lots">1</field>
-            <field name="default_location_src_id" ref='siropdelest.stock_location_classificationNB'/>
+            <field name="default_location_src_id" ref='stock_location_classificationNB'/>
             <field name="default_location_dest_id" search="[('name','=','Stock'),('location_id.name','=','SENB')]" model="stock.location"/>
             <field name="active">1</field>
-            <field name="warehouse_id" ref='siropdelest.warehouse_SENB'/>
+            <field name="warehouse_id" ref='warehouse_SENB'/>
         </record>
 
     </data>
